@@ -40,6 +40,7 @@ pipeline {
          stage("deploy") {
             steps {
                  echo 'deploying'
+                 echo "deploying version ${VERSION}"
             }
         }
     }
